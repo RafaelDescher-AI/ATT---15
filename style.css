@@ -1,5 +1,12 @@
 .bg_img{
     background-image: url(images/bg-img.jpg);
-    align-items:center ;
+    align-items: center;
     background-repeat: no-repeat;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }
