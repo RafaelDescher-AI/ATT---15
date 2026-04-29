@@ -1,7 +1,7 @@
 .bg_img{
-    background-image: url(assets/bg-img.jpg);
+    background-image: url(assets/bg-img.jpg), url(assets/painting_02.webp), url(assets/painting_03.jpg);
     align-items: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .align {
@@ -16,5 +16,16 @@
 }
 
 .icon {
+width: 50px;
+ height: 50px;
+}
 
+.nome_usuario {
+    text-align: center;
+}
+
+.caixa {
+    outline: 2px solid gray; 
+    border-radius: 12px;    
+    padding: 10px;
 }
