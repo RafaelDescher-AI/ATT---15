@@ -1,7 +1,12 @@
 .bg_img{
-    background-image: url(assets/bg-img.jpg);
+    background-image: url("assets/bg-img.jpg"), url("assets/painting_02.webp"), url("assets/painting_03.jpg");
+       background-repeat: no-repeat;
+       background-position: top left, bottom center;
+       background-size: auto, contain; */
+
+    display: flex;
     align-items: center;
-    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .align {
@@ -9,4 +14,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 2%;
+}
+
+.flex {
+    display: flex;
+}
+
+.icon {
+
 }
