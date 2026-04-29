@@ -21,16 +21,5 @@
 }
 
 .icon {
- width: 50px;
- height: 50px;
-}
 
-.nome_usuario {
-    text-align: center;
-}
-
-.caixa {
-    outline: 2px solid gray; /* cor e espessura */
-    border-radius: 12px;    /* deixa arredondado */
-    padding: 10px;
 }
